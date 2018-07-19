@@ -15,6 +15,17 @@
 		E31EE83020FDDB49006B0F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EE82F20FDDB49006B0F09 /* main.m */; };
 		E31EE83A20FDDB49006B0F09 /* WYDragLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EE83920FDDB49006B0F09 /* WYDragLayoutTests.m */; };
 		E31EE84520FDDB49006B0F09 /* WYDragLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EE84420FDDB49006B0F09 /* WYDragLayoutUITests.m */; };
+		E358EA9920FDE19D00C5EAB9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E358EA9820FDE19D00C5EAB9 /* DetailViewController.m */; };
+		E358EAA020FDF08B00C5EAB9 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E358EA9F20FDF08B00C5EAB9 /* BaseTableViewCell.m */; };
+		E358EAA320FDF0A500C5EAB9 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E358EAA220FDF0A500C5EAB9 /* ImageTableViewCell.m */; };
+		E358EAA620FDF0C000C5EAB9 /* InfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E358EAA520FDF0C000C5EAB9 /* InfoTableViewCell.m */; };
+		E358EAA920FDF0D500C5EAB9 /* DragTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E358EAA820FDF0D500C5EAB9 /* DragTableViewCell.m */; };
+		E358EAAC20FDF13300C5EAB9 /* BaseClassNameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E358EAAB20FDF13300C5EAB9 /* BaseClassNameModel.m */; };
+		E358EAB120FDF4A600C5EAB9 /* btn_zhedie@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E358EAAF20FDF4A500C5EAB9 /* btn_zhedie@3x.png */; };
+		E358EAB220FDF4A600C5EAB9 /* btn_zhedie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E358EAB020FDF4A600C5EAB9 /* btn_zhedie@2x.png */; };
+		E38DD85D20FEDE040071C784 /* GrayGapTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E38DD85C20FEDE040071C784 /* GrayGapTableViewCell.m */; };
+		E38DD85F20FF07A90071C784 /* iconImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E38DD85E20FF07A90071C784 /* iconImage.jpg */; };
+		E38DD8A620FF2B260071C784 /* WebViewScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E38DD8A520FF2B260071C784 /* WebViewScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,26 @@
 		E31EE84020FDDB49006B0F09 /* WYDragLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYDragLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31EE84420FDDB49006B0F09 /* WYDragLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYDragLayoutUITests.m; sourceTree = "<group>"; };
 		E31EE84620FDDB49006B0F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31EE85320FDDB81006B0F09 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E358EA9720FDE19D00C5EAB9 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E358EA9820FDE19D00C5EAB9 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E358EA9E20FDF08B00C5EAB9 /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		E358EA9F20FDF08B00C5EAB9 /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		E358EAA120FDF0A500C5EAB9 /* ImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		E358EAA220FDF0A500C5EAB9 /* ImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
+		E358EAA420FDF0C000C5EAB9 /* InfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoTableViewCell.h; sourceTree = "<group>"; };
+		E358EAA520FDF0C000C5EAB9 /* InfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewCell.m; sourceTree = "<group>"; };
+		E358EAA720FDF0D500C5EAB9 /* DragTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragTableViewCell.h; sourceTree = "<group>"; };
+		E358EAA820FDF0D500C5EAB9 /* DragTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragTableViewCell.m; sourceTree = "<group>"; };
+		E358EAAA20FDF13300C5EAB9 /* BaseClassNameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseClassNameModel.h; sourceTree = "<group>"; };
+		E358EAAB20FDF13300C5EAB9 /* BaseClassNameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseClassNameModel.m; sourceTree = "<group>"; };
+		E358EAAF20FDF4A500C5EAB9 /* btn_zhedie@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_zhedie@3x.png"; sourceTree = "<group>"; };
+		E358EAB020FDF4A600C5EAB9 /* btn_zhedie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_zhedie@2x.png"; sourceTree = "<group>"; };
+		E38DD85B20FEDE040071C784 /* GrayGapTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrayGapTableViewCell.h; sourceTree = "<group>"; };
+		E38DD85C20FEDE040071C784 /* GrayGapTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrayGapTableViewCell.m; sourceTree = "<group>"; };
+		E38DD85E20FF07A90071C784 /* iconImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iconImage.jpg; sourceTree = "<group>"; };
+		E38DD8A420FF2B260071C784 /* WebViewScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewScrollView.h; sourceTree = "<group>"; };
+		E38DD8A520FF2B260071C784 /* WebViewScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +132,7 @@
 		E31EE81F20FDDB36006B0F09 /* WYDragLayout */ = {
 			isa = PBXGroup;
 			children = (
+				E31EE85220FDDB60006B0F09 /* class */,
 				E31EE82020FDDB36006B0F09 /* AppDelegate.h */,
 				E31EE82120FDDB36006B0F09 /* AppDelegate.m */,
 				E31EE82320FDDB36006B0F09 /* ViewController.h */,
@@ -110,6 +142,7 @@
 				E31EE82B20FDDB49006B0F09 /* LaunchScreen.storyboard */,
 				E31EE82E20FDDB49006B0F09 /* Info.plist */,
 				E31EE82F20FDDB49006B0F09 /* main.m */,
+				E31EE85320FDDB81006B0F09 /* PrefixHeader.pch */,
 			);
 			path = WYDragLayout;
 			sourceTree = "<group>";
@@ -130,6 +163,64 @@
 				E31EE84620FDDB49006B0F09 /* Info.plist */,
 			);
 			path = WYDragLayoutUITests;
+			sourceTree = "<group>";
+		};
+		E31EE85220FDDB60006B0F09 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				E3E282082100936A00FD1547 /* model */,
+				E3E282072100934100FD1547 /* resource */,
+				E3E28204210092E400FD1547 /* view */,
+				E3E282052100931000FD1547 /* viewcontroller */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		E3E28204210092E400FD1547 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E358EA9E20FDF08B00C5EAB9 /* BaseTableViewCell.h */,
+				E358EA9F20FDF08B00C5EAB9 /* BaseTableViewCell.m */,
+				E358EAA120FDF0A500C5EAB9 /* ImageTableViewCell.h */,
+				E358EAA220FDF0A500C5EAB9 /* ImageTableViewCell.m */,
+				E358EAA420FDF0C000C5EAB9 /* InfoTableViewCell.h */,
+				E358EAA520FDF0C000C5EAB9 /* InfoTableViewCell.m */,
+				E358EAA720FDF0D500C5EAB9 /* DragTableViewCell.h */,
+				E358EAA820FDF0D500C5EAB9 /* DragTableViewCell.m */,
+				E38DD85B20FEDE040071C784 /* GrayGapTableViewCell.h */,
+				E38DD85C20FEDE040071C784 /* GrayGapTableViewCell.m */,
+				E38DD8A420FF2B260071C784 /* WebViewScrollView.h */,
+				E38DD8A520FF2B260071C784 /* WebViewScrollView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E3E282052100931000FD1547 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				E358EA9720FDE19D00C5EAB9 /* DetailViewController.h */,
+				E358EA9820FDE19D00C5EAB9 /* DetailViewController.m */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		E3E282072100934100FD1547 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				E38DD85E20FF07A90071C784 /* iconImage.jpg */,
+				E358EAB020FDF4A600C5EAB9 /* btn_zhedie@2x.png */,
+				E358EAAF20FDF4A500C5EAB9 /* btn_zhedie@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		E3E282082100936A00FD1547 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E358EAAA20FDF13300C5EAB9 /* BaseClassNameModel.h */,
+				E358EAAB20FDF13300C5EAB9 /* BaseClassNameModel.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +326,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E358EAB220FDF4A600C5EAB9 /* btn_zhedie@2x.png in Resources */,
 				E31EE82D20FDDB49006B0F09 /* LaunchScreen.storyboard in Resources */,
 				E31EE82A20FDDB49006B0F09 /* Assets.xcassets in Resources */,
 				E31EE82820FDDB36006B0F09 /* Main.storyboard in Resources */,
+				E38DD85F20FF07A90071C784 /* iconImage.jpg in Resources */,
+				E358EAB120FDF4A600C5EAB9 /* btn_zhedie@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +356,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E358EAA020FDF08B00C5EAB9 /* BaseTableViewCell.m in Sources */,
+				E358EAA320FDF0A500C5EAB9 /* ImageTableViewCell.m in Sources */,
+				E38DD8A620FF2B260071C784 /* WebViewScrollView.m in Sources */,
 				E31EE82520FDDB36006B0F09 /* ViewController.m in Sources */,
 				E31EE83020FDDB49006B0F09 /* main.m in Sources */,
 				E31EE82220FDDB36006B0F09 /* AppDelegate.m in Sources */,
+				E358EA9920FDE19D00C5EAB9 /* DetailViewController.m in Sources */,
+				E358EAA620FDF0C000C5EAB9 /* InfoTableViewCell.m in Sources */,
+				E38DD85D20FEDE040071C784 /* GrayGapTableViewCell.m in Sources */,
+				E358EAAC20FDF13300C5EAB9 /* BaseClassNameModel.m in Sources */,
+				E358EAA920FDF0D500C5EAB9 /* DragTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +536,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WYDragLayout/PrefixHeader.pch";
 				INFOPLIST_FILE = WYDragLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +554,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WYDragLayout/PrefixHeader.pch";
 				INFOPLIST_FILE = WYDragLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

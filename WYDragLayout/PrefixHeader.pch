@@ -9,7 +9,49 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+/**
+ 获取屏幕宽高
+ */
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define KScreenHeight [[UIScreen mainScreen] bounds].size.height
+
+/**
+ @return 导航栏高度
+ */
+#define KNavgationHight (iPhoneX ? 88.f : 64.f)
+
+/**
+ @return tabbar 高度
+ */
+#define KTabbarHeight     ([[UIApplication sharedApplication] statusBarFrame].size.height > 20 ?83 : 49) // 适配iPhone x 底栏高度
+
+/**
+ 颜色
+ */
+#undef    kRGB
+#define kRGB(R,G,B)    [UIColor colorWithRed:R/255.0f green:G/255.0f blue:B/255.0f alpha:1.0f]
+//16进制转色值
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+/*
+ 字体
+ */
+#define kFontBold(X) [UIFont boldSystemFontOfSize:X]
+#define kFont(X)  [UIFont systemFontOfSize:X]
+
+/**
+ *
+ *
+ *  @param X
+ *  [YYImage imageNamed:X]
+ *  @return
+ */
+#define kImageName(X)  [UIImage imageNamed:X]
+
+// 判断是否是iPhone X
+#define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
+
 
 #endif /* PrefixHeader_pch */
