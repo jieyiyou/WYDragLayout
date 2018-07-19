@@ -8,6 +8,13 @@
 
 #import "BaseTableViewCell.h"
 
+typedef void(^PullUpBlock) ();
+
 @interface DragTableViewCell : BaseTableViewCell
+
+@property (strong, nonatomic)UIButton* pullUpBtn;
+
+@property (copy, nonatomic)PullUpBlock block;
+
 
 @end

@@ -10,4 +10,8 @@
 
 @interface BaseClassNameModel : NSObject
 
+@property(nonatomic,strong)NSString* className;
+
+@property(nonatomic,assign)float cellHeight;
+
 @end
